@@ -1,0 +1,9 @@
+{
+  "width": 1000,
+  "height": 1000,
+  "title": "r/place",
+  "maximumTicksPerRun": 75000,
+  "ticksPerRun": 50000,
+  "msPerUpdate": 1000,
+  "verticalSyncDisabled": true
+}
