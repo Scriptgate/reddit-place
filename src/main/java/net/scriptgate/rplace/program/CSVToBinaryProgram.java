@@ -21,7 +21,7 @@ public class CSVToBinaryProgram {
         Files.deleteIfExists(outputFile);
         Files.createFile(outputFile);
 
-        BinaryWriter.writeEventsTo(events, outputFile);
+        BinaryWriter.writeEvents(events, outputFile);
     }
 
 }
