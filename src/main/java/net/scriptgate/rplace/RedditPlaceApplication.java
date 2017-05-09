@@ -16,6 +16,8 @@ import static net.scriptgate.rplace.InputStreamHelper.readUInt32;
 
 public class RedditPlaceApplication implements Application {
 
+    public static final long TOTAL_NUMBER_OF_EVENTS = 16_559_897;
+
     public static void main(String[] args) {
         new OpenGLApplicationHandler().start(new RedditPlaceApplication());
     }
